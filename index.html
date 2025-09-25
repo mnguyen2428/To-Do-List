@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="feedback alert">Write value for item name</header>
+        <form id="itemForm">
+            <h3> to do list</h3>
+            <div class="input-group">
+                <input type="text" id="itemInput" placeholder="name..."/>
+                <button id="add-item" class="btn" type="submit">Add item</button>
+            </div>
+        </form>
+        <div class="item-container">
+            <div class="item-list">
+                <!--div class="item">
+                    <div class="item-info">
+                        <h6 class="item-index">1</h6>
+                        <p class="item-name">Item one</p>
+                    </div>
+                    <div class="item-icons">
+                        <i class="far fa-check-circle complete-item"></i>
+                        <i class="far fa-edit edit-item"></i>
+                        <i class="far fa-times-circle delete-item"></i>
+                    </div>
+                </div> -->
+            </div>
+            <button type="button" id="clear-list" class="btn">Clear items</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
